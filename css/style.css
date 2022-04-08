@@ -55,13 +55,30 @@ figure {
   overflow: hidden;
   border-radius: 8px;
   overflow: hidden;
+  background-color: #1e1e20;
 }
 
-figure img {
-  background-color: #1e1e20;
+img {
+  
   display: flex;
   width: 160px;
   height: 160px;
+}
+.img_add{
+  width: 59px;
+  height: 59px;
+  opacity: 50%;
+}
+
+.add{
+  display: flex;
+    width: 160px;
+    height: 160px;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 p {
   color: #9c9c9c;
@@ -77,18 +94,27 @@ button {
   font-family: IBM Plex Sans;
   font-weight: 500, medium;
 }
-li figure:hover {
+.add:hover{
+  border: 3px solid white;
+  width: 160px;
+  height: 160px;
+}
+figure:hover {
   color: white;
   border: 3px solid white;
   width: 160px;
   height: auto;
 }
 
-.img_figure .img:hover {
+.img:hover {
   width: 190px;
   height: 190px;
 }
-
+.img_add:hover{
+  width: 50%;
+  height: 50%;
+  opacity: 100%;
+}
 button:hover {
   background-color: white;
   color: black;
